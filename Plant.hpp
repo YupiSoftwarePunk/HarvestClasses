@@ -20,7 +20,7 @@ public:
     const std::string& getName() const;
 
 
-    void printInfo() const;
+    virtual void printInfo() const;
 
 private:
     std::string name_;

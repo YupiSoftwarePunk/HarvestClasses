@@ -1,10 +1,2 @@
-﻿  Forest.cpp
-C:\Users\Denis\Documents\projects C++\ForestClasses\Tree.hpp(10,10): error C3668: Tree::printInfo: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-  (компиляция исходного файла "Forest.cpp")
-  
-C:\Users\Denis\Documents\projects C++\ForestClasses\Bush.hpp(9,10): error C3668: Bush::printInfo: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-  (компиляция исходного файла "Forest.cpp")
-  
-  Fruit.cpp
-  Plant.cpp
-  Создание кода...
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+C:\Users\Denis\Documents\projects C++\ForestClasses\x64\Debug\ForestClasses.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

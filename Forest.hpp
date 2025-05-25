@@ -18,7 +18,7 @@ private:
 public:
     void addRandomPlant();
 
-    void printPlants() const;
+    virtual void printPlants() const;
 
     std::vector<std::unique_ptr<Plant>>& getPlants();
 };

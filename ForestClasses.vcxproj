@@ -128,17 +128,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AppleTree.hpp" />
-    <ClInclude Include="BackPack.hpp" />
     <ClInclude Include="Berry.hpp" />
+    <ClInclude Include="Fruits.hpp" />
+    <ClInclude Include="Heirs\AppleTree.hpp" />
+    <ClInclude Include="BackPack.hpp" />
+    <ClInclude Include="Heirs\Berry.hpp" />
     <ClInclude Include="Bush.hpp" />
     <ClInclude Include="Forest.hpp" />
     <ClInclude Include="Fruit.hpp" />
-    <ClInclude Include="Fruits.hpp" />
+    <ClInclude Include="Heirs\Fruits.hpp" />
+    <ClInclude Include="Heirs\OrangeTree.hpp" />
     <ClInclude Include="OrangeTree.hpp" />
     <ClInclude Include="Plant.hpp" />
+    <ClInclude Include="Heirs\Raspberry.hpp" />
+    <ClInclude Include="Heirs\TomatoBush.hpp" />
     <ClInclude Include="Raspberry.hpp" />
     <ClInclude Include="TomatoBush.hpp" />
     <ClInclude Include="Tree.hpp" />
+    <ClInclude Include="Heirs\Vegetable.hpp" />
     <ClInclude Include="Vegetable.hpp" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +153,9 @@
     <ClCompile Include="Forest.cpp" />
     <ClCompile Include="Fruit.cpp" />
     <ClCompile Include="Plant.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
