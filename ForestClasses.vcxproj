@@ -146,6 +146,7 @@
     <ClInclude Include="TomatoBush.hpp" />
     <ClInclude Include="Tree.hpp" />
     <ClInclude Include="Heirs\Vegetable.hpp" />
+    <ClInclude Include="UserInterface.hpp" />
     <ClInclude Include="Vegetable.hpp" />
   </ItemGroup>
   <ItemGroup>
