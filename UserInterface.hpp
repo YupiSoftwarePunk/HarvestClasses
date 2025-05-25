@@ -7,7 +7,7 @@
 class ForestExplorer 
 {
 public:
-    ForestExplorer(Forest& f, Backpack& b) : forest(f), backpack(b) {}
+    ForestExplorer(Forest& f, BackPack& b) : forest(f), backpack(b) {}
 
     void startExploration() 
     {
@@ -26,7 +26,7 @@ public:
 private:
 
     Forest& forest;
-    Backpack& backpack;
+    BackPack& backpack;
 
     void printMenu() const 
     {
