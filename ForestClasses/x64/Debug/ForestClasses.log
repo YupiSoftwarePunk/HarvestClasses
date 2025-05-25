@@ -1,0 +1,10 @@
+﻿  Forest.cpp
+C:\Users\Denis\Documents\projects C++\ForestClasses\Tree.hpp(10,10): error C3668: Tree::printInfo: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Forest.cpp")
+  
+C:\Users\Denis\Documents\projects C++\ForestClasses\Bush.hpp(9,10): error C3668: Bush::printInfo: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Forest.cpp")
+  
+  Fruit.cpp
+  Plant.cpp
+  Создание кода...
